@@ -1,6 +1,66 @@
 .pupsik{
     font-family: "Roboto";
+    
 }
 .pupsik1{
     font-family: "Raleway";
+    color: cornflowerblue;
+    font-size: x-large;
+    font-style: unset;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background-color: white;
+  }
+ main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  main > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    width: 100%;
+    background-color: dimgray;
+  }
+
+  table tr td {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: gray;
+  }
+  
+  .cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    float: left;
+    margin-right: 20px; 
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 225px;
+    background-color: dimgray;
+  }
